@@ -14,7 +14,7 @@ Includes:
 - animations
 - audio playback
 
-##UWP Deals 
+## UWP Deals 
 Minimal Req.: Win10Mobile os build 15063
 
 P.S. This mini-project maded for main RnD projects "Bochs" and "x86onARM" 
