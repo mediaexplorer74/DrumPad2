@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DrumPad.App">
+  <Application.Resources>
+    <ResourceDictionary>
+      <Color x:Key="mainColor">Black</Color>
+      <Color x:Key="highlightColor">White</Color>
+      <Color x:Key="buttonColor">Blue</Color>
+      <Color x:Key="backgroundColor">Green</Color>
+      
+      <Style x:Key="basicStyle" TargetType="VisualElement">
+        <Setter Property="BackgroundColor" Value="{DynamicResource bgColor}"/>
+      </Style>
+
+      <Style x:Key="basicLabelStyle" TargetType="Label">
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="{DynamicResource normalTextSize}"/>
+        <Setter Property="TextColor" Value="{DynamicResource fgColor}" />
+      </Style>
+
+      <Style x:key="basicButtonStyle" TargetType="Button">
+        <Setter Property="TextColor" Value="{DynamicResource fgColor}" />
+        <Setter Property="BorderColor" Value="{DynamicResource acColor}" />
+      </Style>
+
+    </ResourceDictionary>
+
+  </Application.Resources>
+</Application>

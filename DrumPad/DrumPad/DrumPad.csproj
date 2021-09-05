@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\bd1.wav" />
+    <None Remove="Audio\bd2.wav" />
+    <None Remove="Audio\hh1.wav" />
+    <None Remove="Audio\hh2.wav" />
+    <None Remove="Audio\Rock\bd1.wav" />
+    <None Remove="Audio\Rock\bd2.wav" />
+    <None Remove="Audio\Rock\clap.wav" />
+    <None Remove="Audio\Rock\hh1.wav" />
+    <None Remove="Audio\Rock\hh2.wav" />
+    <None Remove="Audio\Rock\sd1.wav" />
+    <None Remove="Audio\Rock\sd2.wav" />
+    <None Remove="Audio\Rock\shake.wav" />
+    <None Remove="Audio\Rock\tt1.wav" />
+    <None Remove="Audio\sd1.wav" />
+    <None Remove="Audio\sd2.wav" />
+    <None Remove="Audio\Techno\bd1.wav" />
+    <None Remove="Audio\Techno\bd2.wav" />
+    <None Remove="Audio\Techno\clap.wav" />
+    <None Remove="Audio\Techno\hh1.wav" />
+    <None Remove="Audio\Techno\hh2.wav" />
+    <None Remove="Audio\Techno\sd1.wav" />
+    <None Remove="Audio\Techno\sd2.wav" />
+    <None Remove="Audio\Techno\shake.wav" />
+    <None Remove="Audio\Techno\tt1.wav" />
+    <None Remove="Audio\tt1.wav" />
+    <None Remove="Audio\tt2.wav" />
+    <None Remove="Images\Black.png" />
+    <None Remove="Images\BlackLogo.png" />
+    <None Remove="Images\Blue.png" />
+    <None Remove="Images\BlueLogo.png" />
+    <None Remove="Images\Orange-Sq.png" />
+    <None Remove="Images\Orange.png" />
+    <None Remove="Images\OrangeLogo.png" />
+    <None Remove="Images\Pink.png" />
+    <None Remove="Images\PinkLogo.png" />
+    <None Remove="Images\Primary.png" />
+    <None Remove="Images\PrimaryLogo.png" />
+    <None Remove="Images\Sand.png" />
+    <None Remove="Images\SandLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\bd1.wav" />
+    <EmbeddedResource Include="Audio\bd2.wav" />
+    <EmbeddedResource Include="Audio\hh1.wav" />
+    <EmbeddedResource Include="Audio\hh2.wav" />
+    <EmbeddedResource Include="Audio\Rock\bd1.wav" />
+    <EmbeddedResource Include="Audio\Rock\bd2.wav" />
+    <EmbeddedResource Include="Audio\Rock\clap.wav" />
+    <EmbeddedResource Include="Audio\Rock\hh1.wav" />
+    <EmbeddedResource Include="Audio\Rock\hh2.wav" />
+    <EmbeddedResource Include="Audio\Rock\sd1.wav" />
+    <EmbeddedResource Include="Audio\Rock\sd2.wav" />
+    <EmbeddedResource Include="Audio\Rock\shake.wav" />
+    <EmbeddedResource Include="Audio\Rock\tt1.wav" />
+    <EmbeddedResource Include="Audio\sd1.wav" />
+    <EmbeddedResource Include="Audio\sd2.wav" />
+    <EmbeddedResource Include="Audio\Techno\bd1.wav" />
+    <EmbeddedResource Include="Audio\Techno\bd2.wav" />
+    <EmbeddedResource Include="Audio\Techno\clap.wav" />
+    <EmbeddedResource Include="Audio\Techno\hh1.wav" />
+    <EmbeddedResource Include="Audio\Techno\hh2.wav" />
+    <EmbeddedResource Include="Audio\Techno\sd1.wav" />
+    <EmbeddedResource Include="Audio\Techno\sd2.wav" />
+    <EmbeddedResource Include="Audio\Techno\shake.wav" />
+    <EmbeddedResource Include="Audio\Techno\tt1.wav" />
+    <EmbeddedResource Include="Audio\tt1.wav" />
+    <EmbeddedResource Include="Audio\tt2.wav" />
+    <EmbeddedResource Include="Images\Black.png" />
+    <EmbeddedResource Include="Images\BlackLogo.png" />
+    <EmbeddedResource Include="Images\Blue.png" />
+    <EmbeddedResource Include="Images\BlueLogo.png" />
+    <EmbeddedResource Include="Images\Orange-Sq.png" />
+    <EmbeddedResource Include="Images\Orange.png" />
+    <EmbeddedResource Include="Images\OrangeLogo.png" />
+    <EmbeddedResource Include="Images\Pink.png" />
+    <EmbeddedResource Include="Images\PinkLogo.png" />
+    <EmbeddedResource Include="Images\Primary.png" />
+    <EmbeddedResource Include="Images\PrimaryLogo.png" />
+    <EmbeddedResource Include="Images\Sand.png" />
+    <EmbeddedResource Include="Images\SandLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.4.0" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.1.527436" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ColorSchemePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
