@@ -14,6 +14,8 @@ Includes:
 - animations
 - audio playback
 
-UWMP - Minimal Req.: Win10Mobile os build 15063
+##UWP Deals 
+Minimal Req.: Win10Mobile os build 15063
 
-P.S. This mini-project maded for main RnD projects "Bochs" and "x86onARM" (theme: use multiplatform features and transfer "pure x86" code to "UWP kernel")
+P.S. This mini-project maded for main RnD projects "Bochs" and "x86onARM" 
+(theme: use multiplatform features and transfer "pure x86" code to "UWP kernel")
